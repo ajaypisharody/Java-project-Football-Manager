@@ -1,0 +1,41 @@
+
+
+----------------PROJECT---------------
+-------FOOTBALLLMANAGER--------
+---1.Creating table for players
+CREATE TABLE PLAYERS(
+playername varchar(50),
+clubname varchar(40),
+salary number
+);
+---inserting players
+insert into PLAYERS values('D.Drogba','Galatasaray',1500000);
+insert into PLAYERS values('C.Ronaldo','Real Madrid',3000000);
+insert into PLAYERS values('E.Hazard','Lille',150000);
+insert into PLAYERS values('G.Bale','Tottenham',2000000);
+insert into PLAYERS values('J.Rodriguez','Manchester united',150000);
+insert into PLAYERS values('A.Sanchez','Arsenal',2500000);
+insert into PLAYERS values('F.Torres','Liverpool',1500000);
+insert into PLAYERS values('D.Beckham','PSG',3000000);
+truncate table PLAYERS
+-----displaying players
+
+select * from PLAYERS;
+
+----------2.creating managers table
+
+CREATE TABLE MANAGERS(
+managername VARCHAR(30),
+clubname VARCHAR(30),
+salary NUMBER,
+experience NUMBER
+);
+-----inserting managers 
+insert into MANAGERS values('Jose Mourinho','Chelsea',1000000,15);
+insert into MANAGERS values('Pep Gourdiola','Bayern Munich',1200000,16);
+insert into MANAGERS values('Antonio Conte','Juventus',900000,8);
+insert into MANAGERS values('Claudio Ranieri','Leicester City',800000,12);
+----retrieving managers
+select * from MANAGERS;
+commit;
+

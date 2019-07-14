@@ -1,0 +1,19 @@
+Project Name=Football Manager
+
+
+An application/game for football enthusiasts for managing their favourite football team. The app provides support for being a manager of a particular club and purchasing favourite players into your football club.
+
+Features:
+
+Can buy players directly from the "players list" using a manager.
+
+Players need to be given proper salaries otherwise they wont join your club.
+
+Some popular managers available:
+1.Jose Mourinho
+2.Pep Gourdiola
+
+Some popular players:
+1.Cristiano Ronaldo
+2.David Beckham
+
